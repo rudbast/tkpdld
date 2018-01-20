@@ -1,6 +1,7 @@
 package config
 
 import (
+	"context"
 	"flag"
 
 	gcfg "gopkg.in/gcfg.v1"
@@ -26,7 +27,7 @@ func init() {
 	flag.StringVar(&configFilepath, "config", "", "path to config file")
 }
 
-func Load() error {
+func Load(ctx context.Context) error {
 	if !flag.Parsed() {
 		flag.Parse()
 	}

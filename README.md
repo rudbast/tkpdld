@@ -1,1 +1,3 @@
-TW9tZW50cyBiZWZvcmUgbXkgbGFzdCBkYXku
+# Random exercise.
+
+SC1YIHRvIEQtRGF5ICEh
